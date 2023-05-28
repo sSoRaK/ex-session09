@@ -1,0 +1,11 @@
+let studentId = prompt("Nhập mã sinh viên");
+let studentName = prompt("Nhập tên sinh viên");
+let studentAge = prompt("Nhập tuổi");
+let scoreHtml = Number(prompt("Nhập điểm HTML"));
+let scoreCss = Number(prompt("Nhập điểm CSS"));
+let scoreJs = Number(prompt("Nhập điểm JS"));
+let scoreAverage = (scoreHtml + scoreCss + scoreJs) / 3;
+document.write("Mã sinh viên " + studentId + "<br>");
+document.write("Tên sinh viên " + studentName + "<br>");
+document.write("Tuổi " + studentAge + "<br>");
+document.write("Điểm trung bình " + scoreAverage + "<br>");
